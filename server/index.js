@@ -9,7 +9,7 @@ require('dotenv').config();
 
 app.use(express.json());
 app.use(cors());
-app.listen(8080, () => console.log("Server running on port 8080"));
+app.listen(8080, () => console.log("Server running on port 808"));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
